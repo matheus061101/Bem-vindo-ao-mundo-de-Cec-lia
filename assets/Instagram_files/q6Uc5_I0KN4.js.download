@@ -1,0 +1,5 @@
+;/*FB_PKG_DELIM*/
+
+__d("PolarisFriendingConfirmationDialogQuery_instagramRelayOperation",[],(function(a,b,c,d,e,f){e.exports="28795966830051775"}),null);
+__d("XPolarisEditBoostedAdControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/b/edit_boosted_ad/",Object.freeze({context:"ads_manager_edit_promote_unknown"}),void 0);b=a;g["default"]=b}),98);
+__d("XPolarisPostControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/{permalink_key}/{shortcode}/",Object.freeze({chaining:!1,viewer:!1,show_insights:!1}),void 0);b=a;g["default"]=b}),98);
