@@ -30,6 +30,7 @@ BODY{
         background-repeat: no-repeat;
         background-position: TOP center;
         background-size: cOver;
+        height: 100vh;
 }
 
 body * {
@@ -38,10 +39,13 @@ body * {
 }
 
 #container {
-    width: 360px;
+    width: 100%;
+    max-width: 588px;
+    min-width: 250px;
  padding: 24px;
    margin: auto;
  background-image: none;
+
 
 }
 
@@ -94,15 +98,15 @@ top: 50%;
 transform: translateY(-50%);
 position: absolute;
 z-index: 1;
-left: 0;
+right: 0;
+
 
 }
 
 .Escuro #switch button{
 
-    right: 0;
-    left: initial;
-
+    left: 0;
+    right: initial;
 }
 
 
@@ -222,4 +226,15 @@ p#unico-1 {
 
 margin-left: 5px;
 
+}
+
+
+/* media queries*/
+
+@media (min-width: 700px) {
+:root {
+    --bg-url: url(./assets/bg-mobile-light.jpg);}
+
+.Escuro {
+    --bg-url: url(./assets/bg-mobile.jpg);}
 }
