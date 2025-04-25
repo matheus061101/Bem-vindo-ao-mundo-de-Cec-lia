@@ -98,15 +98,15 @@ top: 50%;
 transform: translateY(-50%);
 position: absolute;
 z-index: 1;
-right: 0;
+left: 0;
 
+animation: slide-back 0.3s forwards;
 
 }
 
 .Escuro #switch button{
 
-    left: 0;
-    right: initial;
+    animation: slide-in 0.3s forwards;
 }
 
 
@@ -238,3 +238,26 @@ margin-left: 5px;
 .Escuro {
     --bg-url: url(./assets/bg-mobile.jpg);}
 }
+
+
+/* animation */
+
+@keyframes slide-in {
+from {
+    left: 0;
+}
+to {
+    left: 50%;
+}
+}
+
+@keyframes slide-back {
+    from {
+        left: 50%;
+    }
+    to 
+    {
+       left: 0;
+    }
+}
+
